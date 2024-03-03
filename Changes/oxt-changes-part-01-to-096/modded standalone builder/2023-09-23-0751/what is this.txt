@@ -1,0 +1,8 @@
+-- fixes the "automatically build her" (button not long enough) on Linux, in standalone builder dialog (general tab)
+-- replaces the "depreciated" notice under 32-bit mac build (we'll decide when it's depreciated)
+-- replaces the word 'Livecode' with 'OXT' in 'Mac' tab, under "Enter the information and have [replaced] write the PLIST file for you
+
+file: revstandalonesettings.8.rev
+[linux:] /opt/livecode/livecodecommunity-9.6.1.x86_64/Toolset/palettes/standalone settings/
+[Mac:] right-click the app > "show package contents" /Contents/Tools/Toolset/palettes/standalone settings/
+[win:] C:/RunRev/LiveCode Community 9.6.1/Toolset/palettes/standalone settings/
