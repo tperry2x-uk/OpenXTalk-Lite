@@ -1,0 +1,4 @@
+set the cMsgboxSysWin of stack "revPreferences" to true
+set the cMsgboxTopLevel of stack "revPreferences" to true
+set the cInspectorSysWin of stack "revPreferences" to true
+set the cInspectorTopLevel of stack "revPreferences" to true
