@@ -1,0 +1,1 @@
+-- These are icons for OpenXTalk RC4 "chimera" - just me messing about.-- There are icns for MacOS in the zip file, but also PNGs you can use on LinuxFile: OpenXTalk_rc4-chimera-icons

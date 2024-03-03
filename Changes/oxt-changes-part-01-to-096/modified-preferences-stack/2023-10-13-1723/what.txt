@@ -1,0 +1,1 @@
+-- this is a modified preferences stack.-- "reset preferences to default" button is enabled againfile: revpreferencesgui.rev[linux:] /opt/openxtalk/openxtalk-lite_x86_64/Toolset/palettes/[Mac:] right-click app > "show package contents"/Contents/Tools/Toolset/palettes/[win:] C:/openxtalk/openxtalk-lite_x86_64/Toolset/palettes/

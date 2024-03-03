@@ -1,0 +1,11 @@
+-- this is a modified preferences stack.
+-- It is modified using the brilliant "Prefs Attacker.livecode" stack, created by Richmond.
+-- Without Prefs Attacker, it would not have been possible.
+
+file: revpreferencesgui.rev
+[linux:] /opt/livecode/livecodecommunity-9.6.1.x86_64/Toolset/palettes/
+[Mac:] right-click app > "show package contents"/Contents/Tools/Toolset/palettes/
+[win:] C:/RunRev/LiveCode Community 9.6.1/Toolset/palettes/
+
+file: Prefs Attacker.livecode
+-- alternatively, use this stack from within Livecode / OXT to edit the preferences window as you wish.

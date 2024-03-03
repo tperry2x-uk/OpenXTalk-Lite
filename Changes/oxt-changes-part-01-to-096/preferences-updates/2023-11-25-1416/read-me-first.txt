@@ -1,0 +1,19 @@
+-- Allows automatic updates to be turned back on in the preferences
+-- also fixes appearance > grid size (now applied correctly)
+-- you also need to make an "updates" folder: path-to-program/Toolset/palettes/updates/
+
+file: revpreferencesgui.rev
+[linux:] /opt/path-to-program/Toolset/palettes/
+[Mac:] right-click app > "show package contents"/Contents/Tools/Toolset/palettes/
+[win:] C:/path-to-program/Toolset/palettes/
+
+file: revmenubar.livecodescript
+[linux:] /opt/path-to-program/Toolset/palettes/menubar/
+[Mac:] right-click app > "show package contents"/Contents/Tools/Toolset/palettes/menubar/
+[win:] C:/path-to-program/Toolset/palettes/menubar/
+
+file: updates.livecode
+[linux:] /opt/path-to-program/Toolset/palettes/updates/
+[Mac:] right-click app > "show package contents"/Contents/Tools/Toolset/palettes/updates/
+[win:] C:/path-to-program/Toolset/palettes/updates/
+

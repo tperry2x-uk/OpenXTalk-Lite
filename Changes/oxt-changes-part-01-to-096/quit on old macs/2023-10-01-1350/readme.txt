@@ -1,0 +1,1 @@
+-- This is a modification to the revnomessages library-- when you quit, on older versions of MacOS, it can sometimes hang. This makes sure that doesn't happen.file: revnomessageslibrary.livecodescript[Mac:] right-click app icon, "show package contents" > Contents/Tools/Toolset/libraries/

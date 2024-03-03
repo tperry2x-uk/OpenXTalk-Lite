@@ -1,0 +1,23 @@
+-- this gives OpenXTalk the ability to open and save oxtstack files.
+-- It'll then recognise them in open dialogs, and allow you to save .oxtstack files as default.
+-- credit to Paul McClernan for this
+
+file: revsaveasstandalone.livecodescript
+[Linux:] /opt/livecode/livecodecommunity-9.6.1.x86_64/Toolset/libraries/
+[Mac:] right-click the app > "show package contents" /Contents/Tools/Toolset/libraries/
+[win:] C:/RunRev/LiveCode Community 9.6.1/Toolset/libraries/
+
+file: revidelibrary.8.livecodescript
+[Linux:] /opt/livecode/livecodecommunity-9.6.1.x86_64/Toolset/libraries/
+[Mac:] right-click the app > "show package contents" /Contents/Tools/Toolset/libraries/
+[win:] C:/RunRev/LiveCode Community 9.6.1/Toolset/libraries/
+
+file: revcommonlibrary.livecodescript
+[Linux:] /opt/livecode/livecodecommunity-9.6.1.x86_64/Toolset/libraries/
+[Mac:] right-click the app > "show package contents" /Contents/Tools/Toolset/libraries/
+[win:] C:/RunRev/LiveCode Community 9.6.1/Toolset/libraries/
+
+file: home.livecodescript
+[Linux:] /opt/livecode/livecodecommunity-9.6.1.x86_64/Toolset/
+[Mac:] right-click the app > "show package contents" /Contents/Tools/Toolset/
+[win:] C:/RunRev/LiveCode Community 9.6.1/Toolset/

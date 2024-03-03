@@ -1,0 +1,11 @@
+-- This makes the devguides into a toggle option in preferences
+
+file: revpreferencesgui.rev
+[linux:] /opt/path-to-program/Toolset/palettes/
+[Mac:] right-click app > "show package contents"/Contents/Tools/Toolset/palettes/
+[win:] C:/path-to-program/Toolset/palettes/
+
+file: DevGuides.livecodescript
+[linux:] /opt/path-to-program/Extensions/community.ferruslogic.plugin.devguides/
+[Mac:] right-click app > "show package contents"/Contents/Tools/Extensions/community.ferruslogic.plugin.devguides/
+[win:] C:/path-to-program/Extensions/community.ferruslogic.plugin.devguides/

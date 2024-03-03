@@ -1,0 +1,1 @@
+-- This modification changes the OpenXTalk RC4 splash screen. 

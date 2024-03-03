@@ -1,0 +1,1 @@
+I suggest incorporating these commands in the installer. This will prevent the "User Registration" from popping up upon a clean first-run of either Livecode, OXT, or the OXT Hack.

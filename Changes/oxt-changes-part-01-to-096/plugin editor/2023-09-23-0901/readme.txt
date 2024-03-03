@@ -1,0 +1,1 @@
+-- This is a modification to the Plugin Editor stack.-- It replaces the livecode references with OXT (and OpenXTalk in the tooltips)file: revplugineditor.rev[Mac:] right-click app icon, "show package contents" > Contents/Tools/Toolset/palettes/[linux:] /opt/livecode/livecode community 9.6.x/Toolset/palettes/[win:] C:/RunRev/LiveCode Community 9.6.x/Toolset/palettes/
