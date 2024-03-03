@@ -1,0 +1,5 @@
+Documentation > Deleting files:
+Add examples of how to move a file to the bin / trash without deleting it
+[MacOSX] rename file "~/Download/Oliver.txt" to "~/.Trash/Oliver.txt"
+[Linux] rename file "~/Download/Oliver.txt" to "trash:///Oliver.txt"
+[Windows] move file "~/Download/Oliver.txt" to "$Recycle.Bin"
