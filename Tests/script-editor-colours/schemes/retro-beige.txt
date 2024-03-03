@@ -1,0 +1,34 @@
+               put "group commands bold 59,0,61" & return & \
+               "group properties none 46,36,12" & return & \
+               "group functions none 16,36,0" & return & \
+               "class error none 255,0,0" & return & \
+               "class singlecomment bold 0,103,0" & return & \
+               "class multicomment italic 20,107,0" & return & \
+               "class identifier none 17,17,17" & return & \
+               "class literal none 17,29,48" & return & \
+               "class number none 48,16,35" & return & \
+               "class keyword none 91,42,28" & return & \
+               "class operator none 119,0,255" & return & \
+               "class continuation none 255,83,206" & return & \
+               "keyword command bold 0,0,0" & return & \
+               "keyword private bold 0,0,0" & return & \
+               "keyword on bold 0,0,48" & return & \
+               "keyword end bold 0,9,48" & return & \
+               "keyword if bold 0,80,43" & return & \
+               "keyword then bold 0,67,0" & return & \
+               "keyword else bold 0,52,0" & return & \
+               "keyword function bold 0,0,100" & return & \
+               "keyword setprop bold 0,0,87" & return & \
+               "keyword getprop bold 0,0,67" & return & \
+               "keyword repeat bold 65,0,32" & return & \
+               "keyword switch bold 41,4,17" & return & \
+               "keyword try bold 30,29,23" & return & \
+               "keyword catch bold 26,28,45" & return & \
+               "keyword case bold 3,42,52" & return & \
+               "keyword default bold 67,54,23" & return & \
+               "keyword finally bold 54,0,3" & return & \
+               "keyword next bold 53,1,4" & return & \
+               "keyword exit bold 52,2,5" & return into pPreferencesArray["colorization,config"]
+               break
+
+-- 162,164,141 --background

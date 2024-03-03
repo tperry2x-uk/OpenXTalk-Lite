@@ -1,0 +1,7 @@
+-- setting the file extensions on windows can be done with these two modified stacks
+
+file: home.livecodescript
+[win:] C:/openxtalk/OpenXTalk_x64/Toolset/
+
+file: revfileassociations.livecode
+[win:] C:/openxtalk/OpenXTalk_x64/Toolset/palettes/

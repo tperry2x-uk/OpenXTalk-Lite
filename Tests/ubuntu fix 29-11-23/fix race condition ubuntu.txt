@@ -1,0 +1,6 @@
+ideInspectObjects tObjects
+		   if word 1 of the title of wd "revPropertyInspector 1" is "stack" then
+            -- here's where the race condition starts in Ubuntu Linux (tperry 29-11-23)
+            set the style of wd "revPropertyInspector 1" to toplevel
+		   end if
+         exit repeat
