@@ -1,0 +1,19 @@
+You need to create a self-signed certificate.
+
+    Open Keychain Access.
+    Choose Keychain Access > Certificate Assistant > Create Certificate ...
+    Enter a name
+    Set 'Certificate Type' to 'Code Signing'
+
+Then, your command should look like this, if your certificate name is my-new-cert:
+
+codesign -fs my-new-cert /Applications/Utilities/Boot\ Camp\ Assistant.app
+
+If an error "resource fork, Finder information, or similar detritus not allowed" appears, you need to remove all extended attributes first, as per Apple QA1940:
+
+xattr -cr /Applications/Utilities/Boot\ Camp\ Assistant.app
+
+If an error "/Applications/XYZ.app: code object is not signed at all" appears, it can be mitigated by signing not just the app, but all objects inside it:
+
+codesign -fs my-new-cert --deep /Applications/Utilities/Boot\ Camp\ Assistant.app
+
