@@ -1,0 +1,15 @@
+-- files for dark mode on Windows
+-- this is ignored on Mac and Linux, so you only need to apply these changes for the Windows build
+-- just testing a concept at this stage
+
+file: home.livecodescript
+[win:] C:/path-to-openxtalk/Toolset/
+
+file: App Browser.livecode
+[win:] C:/path-to-openxtalk/Plugins/
+
+file: revmenubar.livecodescript
+[win:] C:/path-to-openxtalk/Toolset/palettes/menubar/
+
+
+
