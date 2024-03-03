@@ -1,0 +1,41 @@
+-- just before I go to version 0.93, I wanted to check a few things.
+-- this *should* mean that no matter what you do theming-wise, it should handle it in the IDE. Yes, that's a bold claim - but fingers crossed.
+-- theme support should be working now on Mac, Windows and Linux (although was on Linux anyway)
+-- These mods also remove most branding (unbranding, rather than rebranding).
+-- It also renames the "My Livecode" folder it creates for user extensions to "xTalk extensions"
+
+file: about.dat
+[linux:] /opt/path-to-openxtalk/
+[Mac:] right-click app > "show package contents"/Contents/Tools/
+[win:] C:/path-to-openxtalk/
+
+file: App Browser.livecode
+[linux:] /opt/path-to-openxtalk/Plugins/
+[Mac:] right-click app > "show package contents"/Contents/Tools/Plugins/
+[win:] C:/path-to-openxtalk/Plugins/
+
+file: home.livecodescript
+[linux:] /opt/path-to-openxtalk/Toolset/
+[Mac:] right-click app > "show package contents"/Contents/Tools/Toolset/
+[win:] C:/path-to-openxtalk/Toolset/
+
+file: revpreferencesgui.rev
+[linux:] /opt/path-to-openxtalk/Toolset/palettes/
+[Mac:] right-click app > "show package contents"/Contents/Tools/Toolset/palettes/
+[win:] C:/path-to-openxtalk/Toolset/palettes/
+
+file: revstandalonesettings.8.rev
+[linux:] /opt/path-to-openxtalk/Toolset/palettes/standalone settings/
+[Mac:] right-click app > "show package contents"/Contents/Tools/Toolset/palettes/standalone settings/
+[win:] C:/path-to-openxtalk/Toolset/palettes/standalone settings/
+
+file: revanswerdialog.rev
+[linux:] /opt/path-to-openxtalk/Toolset/palettes/
+[Mac:] right-click app > "show package contents"/Contents/Tools/Toolset/palettes/
+[win:] C:/path-to-openxtalk/Toolset/palettes/
+
+file: revaskdialog.rev
+[linux:] /opt/path-to-openxtalk/Toolset/palettes/
+[Mac:] right-click app > "show package contents"/Contents/Tools/Toolset/palettes/
+[win:] C:/path-to-openxtalk/Toolset/palettes/
+

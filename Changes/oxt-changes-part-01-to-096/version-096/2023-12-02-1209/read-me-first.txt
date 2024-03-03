@@ -1,0 +1,131 @@
+-- This adjusts the grab handle in the revMenubar to look more like a grab handle.
+-- this also adds a visual preview of the grab handle in preferences > appearance
+-- Also fixed is a code error in the 'App Browser', (corrects a false logic statement on fld "controls" in "App Browser", line 34)
+-- While still looking at the 'App Browser', it now works out what the link colour should be in a more robust way (tpLinkColours, App Browser > stack script)
+-- Additionally, a fix has been added for the inspector loop condition that can happen in Ubuntu-based linux distros with the inspector palettes.
+-- (I made that fix conditional to detect if the user was in Ubuntu or not)
+-- Corrected a few typos in the Tools Palette (only visible in script), not user-facing
+-- updated the updates stack (confused?) -- this now removes it from memory when the updates are done
+-- also fixed a bug where the truncated toolbar did not stay truncated if the user toggled 'toolbar icons' / 'toolbar text'
+-- Replaced the LC icon in the Answer and Ask dialogs. Hopefully always shows the OXT icon now if the user forgets to specify one.
+-- Spotted that the 'View' menu > 'Grid' wasn't remembering it's setting between launches, so fixed that
+-- Also tweaked the about text (it contained windows \cr returns), - changed how this loads so it's the same across all platforms.
+-- Added a feature (credit to Richmond here). You can now have custom alert icons in the Ask and Answer dialogs. You just need to have an image called 'appicon.png" in card 1 of your stack.
+-- Added an option in Preferences > Extras to close unnecessary stacks, after the IDE starts 
+-- Fixed geometry resizing bug in revgeometrylibrary.livecodescript
+-- Modified the inspector so that the chances of getting many, many inspectors is greatly lessened.
+-- You can now toggle the revMenubar drag handle on or off without restarting the IDE
+-- Implemented the additional shortcuts in Object menu (card inspector = ctrl J, card script = ctrl shift C, Stack script = ctrl shift S) - Credit to TerryL for this suggestion
+-- started adding a revamped 'all guides' stack (in progress) - can be turned on under Preferences > Dictionary > "Use 'All Guides' experimental stack"
+-- revMenumanager - updated by TerryL, revSetEdited command was causing a blocking error
+-- reportBuilder - suggestion by TerryL to increase the preview window scaling. (tperry: I've added a slider so it can be adjusted 11-12-23)
+
+file: revpreferencesgui.rev
+[linux:] /opt/path-to-program/Toolset/palettes/
+[Mac:] right-click app > "show package contents"/Contents/Tools/Toolset/palettes/
+[win:] C:/path-to-program/Toolset/palettes/
+
+file: about.dat
+[linux:] /opt/path-to-program/
+[Mac:] right-click app > "show package contents"/Contents/Tools/
+[win:] C:/path-to-program/
+
+file: revaboutcardbehavior.livecodescript
+[linux:] /opt/path-to-program/Toolset/palettes/behaviors/
+[Mac:] right-click app > "show package contents"/Contents/Tools/Toolset/palettes/behaviors/
+[win:] C:/path-to-program/Toolset/palettes/behaviors/
+
+file: revinspector.livecodescript
+[linux:] /opt/path-to-program/Toolset/palettes/inspector/
+[Mac:] right-click app > "show package contents"/Contents/Tools/Toolset/palettes/inspector/
+[win:] C:/path-to-program/Toolset/palettes/inspector/
+
+file: revtools.livecodescript
+[linux:] /opt/path-to-program/Toolset/palettes/tools/
+[Mac:] right-click app > "show package contents"/Contents/Tools/Toolset/palettes/tools/
+[win:] C:/path-to-program/Toolset/palettes/tools/
+
+file: App Browser.livecode
+[linux:] /opt/path-to-program/Plugins/
+[Mac:] right-click app > "show package contents"/Contents/Tools/Plugins/
+[win:] C:/path-to-program/Plugins/
+
+file: revidelibrary.8.livecodescript
+[linux:] /opt/path-to-program/Toolset/libraries/
+[Mac:] right-click app > "show package contents"/Contents/Tools/Toolset/libraries/
+[win:] C:/path-to-program/Toolset/libraries/
+
+file: revinspectortemplate.livecodescript
+[linux:] /opt/path-to-program/Toolset/palettes/inspector/
+[Mac:] right-click app > "show package contents"/Contents/Tools/Toolset/palettes/inspector/
+[win:] C:/path-to-program/Toolset/palettes/inspector/
+
+file: revmenubar.livecodescript
+[linux:] /opt/path-to-program/Toolset/palettes/menubar/
+[Mac:] right-click app > "show package contents"/Contents/Tools/Toolset/palettes/menubar/
+[win:] C:/path-to-program/Toolset/palettes/menubar/
+
+file: updates.livecode
+[linux:] /opt/path-to-program/Toolset/palettes/updates/
+[Mac:] right-click app > "show package contents"/Contents/Tools/Toolset/palettes/updates/
+[win:] C:/path-to-program/Toolset/palettes/updates/
+
+file: revgeneralicons.rev
+[linux:] /opt/path-to-program/Toolset/palettes/
+[Mac:] right-click app > "show package contents"/Contents/Tools/Toolset/palettes/
+[win:] C:/path-to-program/Toolset/palettes/
+
+file: revanswerdialog.rev
+[linux:] /opt/path-to-program/Toolset/palettes/
+[Mac:] right-click app > "show package contents"/Contents/Tools/Toolset/palettes/
+[win:] C:/path-to-program/Toolset/palettes/
+
+file: revaskdialog.rev
+[linux:] /opt/path-to-program/Toolset/palettes/
+[Mac:] right-click app > "show package contents"/Contents/Tools/Toolset/palettes/
+[win:] C:/path-to-program/Toolset/palettes/
+
+file: revSplash.livecode
+[linux:] /opt/path-to-program/Toolset/palettes/splash/
+[Mac:] right-click app > "show package contents"/Contents/Tools/Toolset/palettes/splash/
+[win:] C:/path-to-program/Toolset/palettes/splash/
+
+file revgeometrylibrary.livecodescript
+[linux:] /opt/path-to-program/Toolset/libraries/
+[Mac:] right-click app > "show package contents"/Contents/Tools/Toolset/libraries/
+[win:] C:/path-to-program/Toolset/libraries/
+
+file: com.livecode.pi.geometry.behavior.livecodescript
+[linux:] /opt/path-to-program/Toolset/palettes/inspector/editors/
+[Mac:] right-click app > "show package contents"/Contents/Tools/Toolset/palettes/inspector/editors/
+[win:] C:/path-to-program/Toolset/palettes/inspector/editors/
+
+file: userguides.livecode
+[linux:] /opt/path-to-program/Toolset/palettes/userguides/
+[Mac:] right-click app > "show package contents"/Contents/Tools/Toolset/palettes/userguides/
+[win:] C:/path-to-program/Toolset/palettes/userguides/
+
+file: oxt_dictionary.oxtstack
+[linux:] /opt/path-to-program/Documentation/html_viewer/resources/data/api/
+[Mac:] right-click app > "show package contents"/Contents/Tools/Documentation/html_viewer/resources/data/api/
+[win:] C:/path-to-program/Documentation/html_viewer/resources/data/api/
+
+file: allguides.oxtstack
+[linux:] /opt/path-to-program/Toolset/palettes/userguides/
+[Mac:] right-click app > "show package contents"/Contents/Tools/Toolset/palettes/userguides/
+[win:] C:/path-to-program/Toolset/palettes/userguides/
+
+file: revmenumanager.rev
+[linux:] /opt/path-to-program/Toolset/palettes/
+[Mac:] right-click app > "show package contents"/Contents/Tools/Toolset/palettes/
+[win:] C:/path-to-program/Toolset/palettes/
+
+file: Report Builder.livecode
+[linux:] /opt/path-to-program/Plugins/
+[Mac:] right-click app > "show package contents"/Contents/Tools/Plugins/
+[win:] C:/path-to-program/Plugins/
+
+file: revgeometrylibrary.livecodescript
+[linux:] /opt/path-to-program/Toolset/libraries/
+[Mac:] right-click app > "show package contents"/Contents/Toolset/libraries/
+[win:] C:/path-to-program/Toolset/libraries/

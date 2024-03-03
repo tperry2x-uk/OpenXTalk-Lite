@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=OpenXTalk 0.9 Lite
+Comment=OpenXTalk Lite.
+Icon=/opt/openxtalk/openxtalk_x86_64/OpenXTalk-lite_48px.png
+Exec="/opt/openxtalk/openxtalk_x86_64/openxtalk.x86_64" %U
+Actions=
+Categories=Development;X-XFCE;X-Xfce-Toplevel;
+Name[en_GB]=OpenXTalk-Lite.desktop
+Path=
+Terminal=false
+StartupNotify=false

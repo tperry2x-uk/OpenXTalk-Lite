@@ -1,0 +1,33 @@
+[don't-patch-if:]
+-- tperry 20-11-2023 (added this global variable, which can be accessed through the message box).
+[searchfor:]
+      put the cREVProfileReadOnly of stack "revPreferences" into gREVProfileReadOnly
+[replacewith:]
+      put the cREVProfileReadOnly of stack "revPreferences" into gREVProfileReadOnly
+   
+   -- tperry 20-11-2023 (added this global variable, which can be accessed through the message box).
+   -- just so we can reliably get the system version for all major desktop OS versions
+   
+   global tSystemVersionNumber
+   put "" into tShellCmd
+   set hideConsoleWindows to true
+   if the platform contains "linux" then put "lsb_release -r |cut -f2" into tShellCmd
+   if the platform contains "mac" then put "sw_vers -productVersion" into tShellCmd
+   if the platform contains "win" then put "systeminfo | findstr /C:" & QUOTE & "OS Version" & QUOTE into tShellCmd
+   put shell(tShellCmd) into tSystemVersionNumber
+   
+   -- tidy up for Windows
+   if the platform contains "win" then 
+      put line 1 of tSystemVersionNumber into tSystemVersionNumber
+      replace " N/A " with "-" in tSystemVersionNumber
+      replace ":" with return in tSystemVersionNumber
+      if the number of lines in tSystemVersionNumber >1 then put line 2 of tSystemVersionNumber into tSystemVersionNumber
+      replace "Build " with return in tSystemVersionNumber
+      if the number of lines in tSystemVersionNumber >1 then put line 1 of tSystemVersionNumber into tSystemVersionNumber
+      replace " " with "" in tSystemVersionNumber
+      replace "-" with " " in tSystemVersionNumber
+   end if
+   
+   global tSystemVersion
+   put the platform & " " & tSystemVersionNumber into tSystemVersion
+   -- the above would return "MacOS 14" for example.
