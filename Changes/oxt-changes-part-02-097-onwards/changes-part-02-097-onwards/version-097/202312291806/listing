@@ -1,0 +1,8 @@
+file: revmenubar.livecodescript
+[**basepath**]/Toolset/palettes/menubar/
+file: updates.livecode
+[**basepath**]/Toolset/palettes/updates/
+file: home.livecodescript
+[**basepath**]/Toolset/
+file: revSplash.livecode
+[**basepath**]/Toolset/palettes/splash/

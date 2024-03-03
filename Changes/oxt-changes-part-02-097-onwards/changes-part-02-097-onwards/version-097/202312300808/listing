@@ -1,0 +1,28 @@
+file: All.png
+[**basepath**]/Toolset/palettes/inspector/editors/com.livecode.pi.decorations/
+file: Close.png
+[**basepath**]/Toolset/palettes/inspector/editors/com.livecode.pi.decorations/
+file: com.livecode.pi.decorations.livecode
+[**basepath**]/Toolset/palettes/inspector/editors/
+file: Empty.png
+[**basepath**]/Toolset/palettes/inspector/editors/com.livecode.pi.decorations/
+file: home.livecodescript
+[**basepath**]/Toolset/
+file: Max.png
+[**basepath**]/Toolset/palettes/inspector/editors/com.livecode.pi.decorations/
+file: MaxClose.png
+[**basepath**]/Toolset/palettes/inspector/editors/com.livecode.pi.decorations/
+file: Min.png
+[**basepath**]/Toolset/palettes/inspector/editors/com.livecode.pi.decorations/
+file: MinClose.png
+[**basepath**]/Toolset/palettes/inspector/editors/com.livecode.pi.decorations/
+file: revidelibrary.8.livecodescript
+[**basepath**]/Toolset/libraries/
+file: revmenubar.livecodescript
+[**basepath**]/Toolset/palettes/menubar/
+file: revsplashstackbehavior.livecodescript
+[**basepath**]/Toolset/palettes/splash/
+file: Title.png
+[**basepath**]/Toolset/palettes/inspector/editors/com.livecode.pi.decorations/
+file: TitleMenu.png
+[**basepath**]/Toolset/palettes/inspector/editors/com.livecode.pi.decorations/

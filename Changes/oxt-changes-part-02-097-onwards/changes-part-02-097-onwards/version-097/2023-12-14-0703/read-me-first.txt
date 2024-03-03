@@ -1,0 +1,50 @@
+-- Continued work on the 'All Guides' stack
+-- Added shortcut for Object Inspector ctrl-shift-i (Credit to Richmond for this suggestion)
+-- added a resizeable indicator to the report builder's 'report' window (Richmond requested 14-12-23)
+-- (Report builder also now does dark-mode properly if you are on Linux with a dark theme)
+-- Updates stack: stopped using the unreliable libURLDownloadToFile
+-- Dictionary stack - resized certain elements and turned off bits we aren't using
+-- Added shortcuts for the Project Browser (ctrl-shift-P) and the Application browser (ctrl-shift-A)
+-- moved 'Application Browser' back into the "Tools" menu (actually, left it in plugins too as it's a plugin)
+-- Added an option to "Check for updates" via the help menu
+-- Corrected the hilite colour for info-tips (normally shown in iOS standalone settings) to use cToolSelector colour in prefs
+
+file: revmenubar.livecodescript
+[linux:] /opt/path-to-program/Toolset/palettes/menubar/
+[Mac:] right-click app > "show package contents"/Contents/Tools/Toolset/palettes/menubar/
+[win:] C:/path-to-program/Toolset/palettes/menubar/
+
+file: allguides.oxtstack
+[linux:] /opt/path-to-program/Toolset/palettes/userguides/
+[Mac:] right-click app > "show package contents"/Contents/Tools/Toolset/palettes/userguides/
+[win:] C:/path-to-program/Toolset/palettes/userguides/
+
+file: Report Builder.livecode
+[linux:] /opt/path-to-program/Plugins/
+[Mac:] right-click app > "show package contents"/Contents/Tools/Plugins/
+[win:] C:/path-to-program/Plugins/
+
+file: updates.livecode
+[linux:] /opt/path-to-program/Toolset/palettes/updates/
+[Mac:] right-click app > "show package contents"/Contents/Tools/Toolset/palettes/updates/
+[win:] C:/path-to-program/Toolset/palettes/updates/
+
+file: oxt_dictionary.oxtstack
+[linux:] /opt/path-to-program/Documentation/html_viewer/resources/data/api/
+[Mac:] right-click app > "show package contents"/Contents/Tools/Documentation/html_viewer/resources/data/api/
+[win:] C:/path-to-program/Documentation/html_viewer/resources/data/api/
+
+file: revpreferencesgui.rev
+[linux:] /opt/path-to-program/Toolset/palettes/
+[Mac:] right-click app > "show package contents"/Contents/Tools/Toolset/palettes/
+[win:] C:/path-to-program/Toolset/palettes/
+
+file: revCore.8.livecode
+[linux:] /opt/path-to-program/Toolset/palettes/
+[Mac:] right-click app > "show package contents"/Contents/Tools/Toolset/palettes/
+[win:] C:/path-to-program/Toolset/palettes/
+
+file: revidelibrary.8.livecodescript
+[linux:] /opt/path-to-program/Toolset/libraries/
+[Mac:] right-click app > "show package contents"/Contents/Tools/Toolset/libraries/
+[win:] C:/path-to-program/Toolset/libraries/

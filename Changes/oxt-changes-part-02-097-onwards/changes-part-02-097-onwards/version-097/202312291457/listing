@@ -1,0 +1,6 @@
+file: allguides.oxtstack
+[**basepath**]/Toolset/palettes/userguides/
+file: revshortcutslibrary.livecodescript
+[**basepath**]/Toolset/libraries/
+file: Report Builder.livecode
+[**basepath**]/Plugins/
