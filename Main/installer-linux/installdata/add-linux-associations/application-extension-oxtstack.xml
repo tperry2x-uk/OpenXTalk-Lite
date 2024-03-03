@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
+ <mime-type type="application/x-extension-oxtstack">
+  <comment>OpenXTalk Stack</comment>
+  <glob pattern="*.oxtstack"/>
+  <icon name="application-x-extension-oxtstack"/>
+ </mime-type>
+</mime-info>

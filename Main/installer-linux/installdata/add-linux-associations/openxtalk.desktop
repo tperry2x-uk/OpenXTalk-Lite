@@ -1,0 +1,16 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Type=Application
+Name=OpenXTalk
+Exec="/opt/openxtalk/openxtalk_x86_64/openxtalk.x86_64" %U
+NoDisplay=false
+Categories=Development;IDE;
+StartupWMClass=openxtalk
+Terminal=false
+StartupNotify=false
+Name[en_GB]=OpenXTalk Lite 0.9
+Name=OpenXTalk Lite 0.9
+Icon[en_GB]=/opt/openxtalk/openxtalk_x86_64/OpenXTalk-lite_48px.png
