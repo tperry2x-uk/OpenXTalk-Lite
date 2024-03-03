@@ -1,0 +1,1 @@
+-- this changes the name shown in the menubar under MacOS.-- changes from "Livecode" to "OpenXTalk 0.9"file: info.plist[Mac:] right-click .app > "Show Package Contents"/Contents-- replace the existing info.plist

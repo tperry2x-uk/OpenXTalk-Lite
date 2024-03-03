@@ -1,0 +1,31 @@
+-- files for dark mode on Macs (and maybe Windows)
+-- this is ignored on Linux, but might come in useful on the Windows build. More work required for Windows though.
+-- I've tested this and it works on MacOS, but is easily broken by messing about with codesigning
+
+file: home.livecodescript
+[linux:] /opt/path-to-openxtalk/Toolset/
+[Mac:] right-click app > "show package contents"/Contents/Tools/Toolset/
+[win:] C:/path-to-openxtalk/Toolset/
+
+folder: org.openxtalk.library.macosnativeapptools
+[linux:] /opt/path-to-openxtalk/Extensions/
+[Mac:] right-click app > "show package contents"/Contents/Tools/Extensions/
+[win:] C:/path-to-openxtalk/Extensions/
+
+file: org.openxtalk.library.macosnativeapptools.lci
+[linux:] /opt/path-to-openxtalk/Toolchain/modules/lci/
+[Mac:] right-click app > "show package contents"/Contents/Tools/Toolchain/modules/lci/
+[win:] C:/path-to-openxtalk/Toolchain/modules/lci/
+
+file: revideextensionlibrary.livecodescript
+[linux:] /opt/path-to-openxtalk/Toolset/libraries/
+[Mac:] right-click app > "show package contents"/Contents/Tools/Toolset/libraries/
+[win:] C:/path-to-openxtalk/Toolset/libraries/
+
+file: revmenubar.livecodescript
+[linux:] /opt/path-to-openxtalk/Toolset/palettes/menubar/
+[Mac:] right-click app > "show package contents"/Contents/Tools/Toolset/palettes/menubar/
+[win:] C:/path-to-openxtalk/Toolset/palettes/menubar/
+
+
+

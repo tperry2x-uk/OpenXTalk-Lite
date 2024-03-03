@@ -1,0 +1,26 @@
+  -- Manual instructions for applying the MacOS Sonoma patches:
+  -- (Full credits for this go to Tom on the OpenXTalk.org forum
+  
+  Extract the attached zip file.
+Put patch1.hex and patch2.hex on your desktop. One contains the fixes for the IDE itself, the other one ensures that the standalones you create work correctly.
+
+Open a terminal.
+Copy and paste the following command into your terminal and press the Return key:
+
+sudo xxd -r ~/Desktop/patch1.hex /Applications/OpenXTalk Lite [version].app/Contents/MacOS/LiveCode-Community
+
+You will have to enter your password (nothing will be displayed on the screen) and press Return again.
+Now copy and paste the command for the second patch into your terminal and press the Return key:
+
+sudo xxd -r ~/Desktop/patch2.hex /Applications/OpenXTalk Lite [version].app/Contents/Tools/Runtime/Mac\ OS\ X/x86-64/Standalone.app/Contents/MacOS/Standalone-Community
+
+Now LiveCode is fixed (you can now delete the patch files), but it will not work because macOS will eventually notice that it has been modified. So we need to re-sign the modified application. Run these two commands in your terminal. Copy and paste one command at a time and press Return after each command:
+
+sudo codesign -f -s- --deep /Applications/LiveCode\ Community\ 9.6.3.app/Contents/Tools/Runtime/Mac\ OS\ X/x86-64/Standalone.app
+
+If you don't have the necessary developer tools on your Mac, macOS should ask you at this point if you want to download them. Just click "Install". Wait until the installation has completed (this can take quite some time), then don't forget to run the above codesign command again before entering the second one.
+
+sudo codesign -f -s- --deep /Applications/LiveCode\ Community\ 9.6.3.app
+
+That's it! You're ready to go again. 8-)
+

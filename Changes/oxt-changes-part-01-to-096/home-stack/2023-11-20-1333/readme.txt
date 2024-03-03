@@ -1,0 +1,1 @@
+-- a few extra checks for Windows file associationsfile: home.livecodescript[Linux:] /opt/path-to-your-build/Toolset/[win:] C:/path-to-your-build/Toolset/[Mac:] right-click the app > "show package contents" /Contents/Tools/Toolset/

@@ -1,0 +1,1 @@
+-- changes the Application Browser to use the correct text colourfile: App Browser.livecode[Mac:] right-click the app > "show package contents" /Contents/Tools/Plugins/[Linux:] /opt/livecode/livecodecommunity-9.6.x/Plugins/[win:] C:/RunRev/LiveCode Community 9.6.1/Plugins/

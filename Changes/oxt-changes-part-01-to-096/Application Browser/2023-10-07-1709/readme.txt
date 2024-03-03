@@ -1,0 +1,1 @@
+-- changes the Application Browser to ensure a target object always exists before trying to reference itfile: App Browser.livecode[Mac:] right-click the app > "show package contents" /Contents/Tools/Plugins/[Linux:] /opt/openxtalk/openxtalk-lite-0.9/Plugins/[win:] C:/OpenXTalk/OpenXTalk 0.92/Plugins/

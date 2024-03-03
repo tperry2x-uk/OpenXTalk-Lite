@@ -1,0 +1,22 @@
+-- If you are using this on Linux, you will find that the "Player" tool (for adding video) can be extremely broken.
+-- this adds a way to disable it if you find you are affected by this issue
+
+file: revidelibrary.8.livecodescript
+[linux:] /opt/path-to-program/Toolset/libraries/
+[Mac:] right-click app > "show package contents"/Contents/Tools/Toolset/libraries/
+[win:] C:/path-to-program/Toolset/libraries/
+
+file: classicToolsOrder_noplayer.tsv
+[linux:] /opt/path-to-program/Toolset/resources/supporting_files/property_definitions/
+[Mac:] right-click app > "show package contents"/Contents/Tools/Toolset/resources/supporting_files/property_definitions/
+[win:] C:/path-to-program/Toolset/resources/supporting_files/property_definitions/
+
+file: revpreferencesgui.rev
+[linux:] /opt/path-to-program/Toolset/palettes/
+[Mac:] right-click app > "show package contents"/Contents/Tools/Toolset/palettes/
+[win:] C:/path-to-program/Toolset/palettes/
+
+file: home.livecodescript
+[linux:] /opt/path-to-program/Toolset/
+[Mac:] right-click app > "show package contents"/Contents/Tools/Toolset/
+[win:] C:/path-to-program/Toolset/

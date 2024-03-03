@@ -1,0 +1,20 @@
+-- files for dark mode on Macs (round 3)
+-- this is a continuation of removing custom colour properties where they should not be set
+-- this also corrects specific theming for Mac Dark Mode.
+-- (Dark mode for Windows will be my next job)
+
+file: home.livecodescript
+[linux:] /opt/path-to-openxtalk/Toolset/
+[Mac:] right-click app > "show package contents"/Contents/Tools/Toolset/
+[win:] C:/path-to-openxtalk/Toolset/
+
+file: revpreferencesgui.rev
+[linux:] /opt/path-to-openxtalk/Toolset/palettes/
+[Mac:] right-click app > "show package contents"/Contents/Tools/Toolset/palettes/
+[win:] C:/path-to-openxtalk/Toolset/palettes/
+
+file: App Browser.livecodescript
+[linux:] /opt/path-to-openxtalk/Plugins/
+[Mac:] right-click app > "show package contents"/Contents/Tools/Plugins/
+[win:] C:/path-to-openxtalk/Plugins/
+

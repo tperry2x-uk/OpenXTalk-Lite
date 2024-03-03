@@ -1,0 +1,19 @@
+-- files for dark mode on Macs (round 2)
+-- this is a continuation of removing custom colour properties where they should not be set
+-- you can install them on windows and linux, but they won't do anything
+
+file: home.livecodescript
+[linux:] /opt/path-to-openxtalk/Toolset/
+[Mac:] right-click app > "show package contents"/Contents/Tools/Toolset/
+[win:] C:/path-to-openxtalk/Toolset/
+
+file: revpreferencesgui.rev
+[linux:] /opt/path-to-openxtalk/Toolset/palettes/
+[Mac:] right-click app > "show package contents"/Contents/Tools/Toolset/palettes/
+[win:] C:/path-to-openxtalk/Toolset/palettes/
+
+file: revsestackbehavior.livecodescript
+[linux:] /opt/path-to-openxtalk/Toolset/palettes/script editor/behaviors/
+[Mac:] right-click app > "show package contents"/Contents/Tools/Toolset/palettes/script editor/behaviors/
+[win:] C:/path-to-openxtalk/Toolset/palettes/script editor/behaviors/
+

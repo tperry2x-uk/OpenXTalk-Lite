@@ -1,0 +1,8 @@
+-- This renames the "My Livecode" folder it creates for user extensions to "xTalk extensions"
+-- it also changes the default config folder for saving preferences to "xtalk".
+-- you can change this for whatever you call your fork. Just change the variable "tForkName" inside home.livecodescript
+
+file: home.livecodescript
+[linux:] /opt/path-to-openxtalk/Toolset/
+[Mac:] right-click app > "show package contents"/Contents/Tools/Toolset/
+[win:] C:/path-to-openxtalk/Toolset/
