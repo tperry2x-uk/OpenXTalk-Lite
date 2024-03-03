@@ -6,3 +6,9 @@ The goal of the Lite version is a smaller, debranded version, with bug fixes.
 
 All contributions and bug fixes especially welcome.
 For the main OpenXTalk version, see https://github.com/OpenXTalk-org/OpenXtalk-IDE-DontPanicEdition
+
+Download links:
+https://mega.nz/folder/EHkVSYCJ#QskoQCVTFZma2QXeCRPG9Q
+
+Alternative mirror:
+https://www.dropbox.com/scl/fo/75kfz9ho738g6monnfbp1/h?rlkey=1x9w8esr56nxzvx703i45xdm5&dl=0
