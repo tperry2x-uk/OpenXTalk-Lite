@@ -1,0 +1,4 @@
+MySQL,dbmysql.so
+ODBC,dbodbc.so
+PostgreSQL,dbpostgresql.so
+SqLite,dbsqlite.so
