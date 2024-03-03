@@ -4,5 +4,5 @@ Together, we can make sure that a Free Open Source xTalk language remains availa
 OpenXTalk Lite is a fork of the OpenXTalk project.
 The goal of the Lite version is a smaller, debranded version, with bug fixes.
 
-All contributions welcome.
-For the main OpenXTalk version, see
+All contributions and bug fixes especially welcome.
+For the main OpenXTalk version, see https://github.com/OpenXTalk-org/OpenXtalk-IDE-DontPanicEdition
